@@ -14,14 +14,18 @@ body{
 }
 
 .list{
+    --spacing: 20px;
     display: flex;
+    align-items: stretch;
     justify-content: flex-start;
-    /* align-items: stretch; */
+    flex-wrap: wrap;
+    margin: 0 calc(var(--spacing) * -1);
 
 }
 
 .list__item{
-    width: 30%;
+    margin: 0 var(--spacing);
+    width: calc(33.33% - var(--spacing)*2);
 }
 
 .list__image{
