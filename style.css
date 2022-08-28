@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: "Montserrat", sans-serif;
+}
+
+.list{
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: stretch; */
+
+}
+
+.list__item{
+    width: 30%;
+}
+
+.list__image{
+    width: 100%;
+}
